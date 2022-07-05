@@ -1,3 +1,10 @@
+---
+toc: true
+layout: post
+description: Requirements
+categories: [markdown]
+title: Requirements
+---
 # Requirements
 
 Folgende Requirements wurden nach den SOPHISTEN Regeln für Frunch Infinity 2.0 definiert:
