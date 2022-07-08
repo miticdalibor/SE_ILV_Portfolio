@@ -79,7 +79,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      2 min read
+      1 min read
     
 </span></p>
 
@@ -99,19 +99,16 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h1"><a href="#requirements">Requirements</a>
 <ul>
 <li class="toc-entry toc-h2"><a href="#funktionale-requirements">Funktionale Requirements:</a></li>
-<li class="toc-entry toc-h2"><a href="#technologische-requirements">Technologische Requirements</a></li>
-<li class="toc-entry toc-h2"><a href="#quality-of-service">Quality of Service</a></li>
 <li class="toc-entry toc-h2"><a href="#user-interface">User Interface</a></li>
-<li class="toc-entry toc-h2"><a href="#hier-uml-diagramm-der-zentralen-komponenten-einfügen">hier UML Diagramm der zentralen Komponenten einfügen</a></li>
+<li class="toc-entry toc-h2"><a href="#uml-diagramm-der-zentralen-requirements">UML Diagramm der zentralen Requirements</a></li>
 </ul>
 </li>
 </ul><h1 id="requirements">
 <a class="anchor" href="#requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirements</h1>
-
 <p>Folgende Requirements wurden nach den SOPHISTEN Regeln für Frunch Infinity 2.0 definiert.</p>
+
 <h2 id="funktionale-requirements">
 <a class="anchor" href="#funktionale-requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Funktionale Requirements:</h2>
-
 <ul>
   <li>Unter der Bedingung, dass der User alle Features des importierten Datensatzes über das UI kategorisiert hat und die Funktion “Free Lunch” gestartet hat, muss die Pipeline des Systems in der Lage sein, den Datensatz eigenständiig für das Modelltraining vorzubereiten.</li>
   <li>Wenn der importierte Datensatz der Pipeline übergeben wurde, soll die Pipeline fähig sein, Spalten mit nur fehlenden Daten abzufragen und aus dem Datensatz zu löschen.</li>
@@ -119,16 +116,7 @@ window.onload = wrap_img;
   <li>Wenn der importierte Datensatz der Pipeline übergeben wurde, soll die Pipeline fähig sein, fehlende kategorische Daten aus dem Datensatz zu entfernen.</li>
   <li>Wenn der importierte Datensatz der Pipeline übergeben wurde, soll die Pipeline fähig sein, entsprechend die numerischen Features zu skalieren zwischen 0 und 1 (MinMaxScaler).</li>
   <li>Wenn der vom User importierte Datensatz durch das Starten der “Frunch Infinity 2.0” Funktion vorverarbeitet wurde, sollen unterschiedliche konventionelle Modelle trainiert werden.</li>
-  <li>Wenn der User die Funktion “Frunch Infinity 2.0” gestartet hat, soll die Applikation fähig sein, dem User eine Auswahl von Metriken zum Vergleich der trainierten Modelle anbieten.</li>
-  <li>Wenn das Training mit unterschiedlichen Modellen abgeschlossen ist, sollen die Ergebnisse in einer Tabelle dem User über das UI angezeigt werden.</li>
-  <li>Wenn der User die Applikation startet, soll das System die Möglichkeit anbieten, den Log einzusehen und zu exportieren von der APP.</li>
 </ul>
-
-<h2 id="technologische-requirements">
-<a class="anchor" href="#technologische-requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Technologische Requirements</h2>
-
-<h2 id="quality-of-service">
-<a class="anchor" href="#quality-of-service" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quality of Service</h2>
 
 <h2 id="user-interface">
 <a class="anchor" href="#user-interface" aria-hidden="true"><span class="octicon octicon-link"></span></a>User Interface</h2>
@@ -136,11 +124,14 @@ window.onload = wrap_img;
   <li>Wenn der User die App startet, soll das System fähig sein, individuelle Datensätze zu importieren.</li>
   <li>Wenn der User einen beliebigen Datensatz über das UI importiert, muss die App “Frunch Infinity 2.0” die Möglichkeit bieten, die Feature-Bezeichnungen dem User anzuzeigen und der User soll entsprechend jedes Feature als numerisch oder kategorisch sowie die Zielvariable auswählen.</li>
   <li>Unter der Bedingung, dass der User alle Features des importierten Datensatzes über das UI kategorisiert hat und die Zielvariable kategorisch ist, soll die Applikation die Anzahl der unterschiedlichen Klassen in der Zielvariable sowie die Klassenbalance anzeigen.</li>
-  <li>Nachdem das Training des importierten Datensatzes abgeschlossen wurde, sollen die Ergebnisse der ausgewählten Metriken dem User über das UI angezeigt werden.</li>
+  <li>Wenn der User die Funktion “Frunch Infinity 2.0” gestartet hat, soll die Applikation fähig sein, dem User eine Auswahl von Metriken zum Vergleich der trainierten Modelle anbieten.</li>
+  <li>Wenn das Training mit unterschiedlichen Modellen abgeschlossen ist, sollen die Ergebnisse mit den ausgewählten Metriken in einer Tabelle dem User über das UI angezeigt werden.</li>
+  <li>Wenn der User die Applikation startet, soll das System die Möglichkeit anbieten, den Log einzusehen und zu exportieren von der APP.</li>
 </ul>
 
-<h2 id="hier-uml-diagramm-der-zentralen-komponenten-einfügen">
-<a class="anchor" href="#hier-uml-diagramm-der-zentralen-komponenten-einf%C3%BCgen" aria-hidden="true"><span class="octicon octicon-link"></span></a>hier UML Diagramm der zentralen Komponenten einfügen</h2>
+<h2 id="uml-diagramm-der-zentralen-requirements">
+<a class="anchor" href="#uml-diagramm-der-zentralen-requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>UML Diagramm der zentralen Requirements</h2>
+<p><img src="../diagrams/UML_requirements.svg" alt="UML Requirements"></p>
 
   </div><a class="u-url" href="/SE_ILV_Portfolio/markdown/2022/07/04/requirements.html" hidden></a>
 </article>
