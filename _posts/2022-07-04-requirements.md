@@ -18,6 +18,7 @@ Folgende Requirements wurden nach den SOPHISTEN Regeln für Frunch Infinity 2.0 
 - Wenn der vom User importierte Datensatz durch das Starten der "Frunch Infinity 2.0" Funktion vorverarbeitet wurde, sollen unterschiedliche konventionelle Modelle trainiert werden.
 
 ## User Interface
+
 - Wenn der User die App startet, soll das System fähig sein, individuelle Datensätze zu importieren.
 - Wenn der User einen beliebigen Datensatz über das UI importiert, muss die App "Frunch Infinity 2.0" die Möglichkeit bieten, die Feature-Bezeichnungen dem User anzuzeigen und der User soll entsprechend jedes Feature als numerisch oder kategorisch sowie die Zielvariable auswählen.
 - Unter der Bedingung, dass der User alle Features des importierten Datensatzes über das UI kategorisiert hat und die Zielvariable kategorisch ist, soll die Applikation die Anzahl der unterschiedlichen Klassen in der Zielvariable sowie die Klassenbalance anzeigen.
@@ -26,4 +27,10 @@ Folgende Requirements wurden nach den SOPHISTEN Regeln für Frunch Infinity 2.0 
 - Wenn der User die Applikation startet, soll das System die Möglichkeit anbieten, den Log einzusehen und zu exportieren von der APP.
 
 ## UML Diagramm der zentralen Requirements
-![UML Requirements](./diagrams/UML_requirements.svg)
+<p align="center">
+    <img 
+      width="300"
+      height="300"
+      src="./diagrams/UML_requirements.svg"
+    >
+</p>
