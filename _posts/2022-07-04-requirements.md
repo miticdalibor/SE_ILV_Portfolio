@@ -3,7 +3,7 @@ toc: true
 layout: post
 description: Requirements von Frunch Infinity 2.0 nach den SOPHISTEN Regeln.
 categories: [markdown]
-title: Requirements
+title: 01 Requirements
 ---
 
 # Requirements
