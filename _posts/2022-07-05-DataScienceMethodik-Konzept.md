@@ -3,7 +3,7 @@ toc: true
 layout: post
 description: Dieser Post beschreibt das angewandten Data Science Methodik-Konzept für Frunch Infinity 2.0
 categories: [markdown]
-title: Data Science Methodik-Konzept
+title: 02 Data Science Methodik-Konzept
 ---
 
 # Data Science Methodik-Konzept
