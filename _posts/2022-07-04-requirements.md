@@ -26,4 +26,4 @@ Folgende Requirements wurden nach den SOPHISTEN Regeln für Frunch Infinity 2.0 
 - Wenn der User die Applikation startet, soll das System die Möglichkeit anbieten, den Log einzusehen und zu exportieren von der APP.
 
 ## UML Diagramm der zentralen Requirements
-![UML Requirements](../diagrams/UML_requirements.svg)
+![UML Requirements](./diagrams/UML_requirements.svg)
