@@ -16,6 +16,7 @@ title: 02 Data Science Methodik-Konzept
 # Konzept Datenfluss
 <p style="text-align: justify;">Die nachfolgende Grafik zeigt eine Übersicht des Datenflusses. Dabei stellen die gelb markierten Blöcke das Frontend und die blau markierten Blöcke das Backend dar.</p>
 
-![Konzept Datenfluss](./diagrams/Prozess.svg)
+![]({{ site.baseurl }}/diagrams/Prozess.svg "Datenfluss")
+
 
 Der User 
