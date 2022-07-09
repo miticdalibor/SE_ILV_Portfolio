@@ -7,7 +7,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Portfolio Frunch Infinity 2.0
-description: This website is powered by [fastpages](https://github.com/fastai/fastpages).
+description: This website is powered by fastpages (https://github.com/fastai/fastpages)
 github_username: miticdalibor
 # you can comment the below line out if your repo name is not different than your baseurl
 github_repo: "SE_ILV_Portfolio"
@@ -39,7 +39,7 @@ baseurl: "/SE_ILV_Portfolio" # the subpath of your site, e.g. "/blog".
 # Github and twitter are optional:
 minima:
   social_links:
-    twitter:
+    github: fastpages
     github: miticdalibor
 
 # Set this to true to get LaTeX math equation support
