@@ -6,8 +6,6 @@ categories: [markdown]
 title: 01 Requirements
 ---
 
-Folgende Requirements wurden nach den SOPHISTEN Regeln für Frunch Infinity 2.0 definiert.
-
 # Funktionale Requirements
 - <p style="text-align: justify;">Unter der Bedingung, dass der User alle Features des importierten Datensatzes über das UI kategorisiert hat und die Funktion "Free Lunch" gestartet hat, muss die Pipeline des Systems in der Lage sein, den Datensatz eigenständiig für das Modelltraining vorzubereiten. </p>
 - <p style="text-align: justify;">Wenn der importierte Datensatz der Pipeline übergeben wurde, soll die Pipeline fähig sein, Spalten mit nur fehlenden Daten abzufragen und aus dem Datensatz zu löschen. </p>
@@ -25,5 +23,5 @@ Folgende Requirements wurden nach den SOPHISTEN Regeln für Frunch Infinity 2.0 
 - <p style="text-align: justify;">Wenn der User die Applikation startet, soll das System die Möglichkeit anbieten, den Log einzusehen und zu exportieren von der APP.</p>
 
 # UML Diagramm der zentralen Requirements
-![]({site.baseurl}/diagrams/UML_requirements.svg "UML Requirements")
+![]({ site.baseurl }/diagrams/UML_requirements.svg "UML Requirements")
 
