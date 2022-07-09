@@ -4,8 +4,14 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+**Name:** Ing. Dalibor Mitic, BSc.
 
+**Kurs:** Softwareentiwcklung 2
 
+**Jahrgang:** DSIA 2021/22
 
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+**Studiengang:** Data Science & Intelligent Analytics
+
+**Institut:** Fachhochschule Kufstein
+
+This website is powered by **[fastpages](https://github.com/fastai/fastpages)**.
