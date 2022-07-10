@@ -38,4 +38,6 @@ Mögliche Veränderungen von Requirements wären beispielsweise:
 - <p style="text-align: justify;">Model-Explanation: Der User will das Training der Modelle überwachen und dies muss entsprechend über das UI ausgegeben oder in einem Log-File gespeichert werden. </p>
 - <p style="text-align: justify;">Das beste Modell soll gespeichert werden, damit der User dies auf einem ähnlichen Datensatz anwendet. </p>
 
+# Diskussion
+
 

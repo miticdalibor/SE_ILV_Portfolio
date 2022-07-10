@@ -11,11 +11,7 @@ title: 02 Data Science Methodik-Konzept
 
 ![]({{ site.baseurl }}/images/CRISP-DM.png "CRISP-DM")
 
-# Konzept Datenfluss
-<p style="text-align: justify;">Die nachfolgende Grafik zeigt eine Übersicht des Datenflusses. Die gelb markierten Blöcke befinden sich im Frontend und die blau markierten Blöcke im Backend.</p>
 
-![]({{ site.baseurl }}/diagrams/Prozess.svg "Datenfluss")
-
-<p style="text-align: justify;">Der User soll dabei die Daten aus dem lokalen Speicher in einem .csv Format über die Web-App hochladen. Über die Web-App soll der User dann die Feature-Bezeichnungen definieren und entsprechend als numerisch oder kategorisch markieren sowie die Zielvariable. Sobald die Funktion gestartet wird, werden die Daten entsprechend über eine Pipeline preprocessed und im Datawarehouse abgelegt. Von dort aus werden die preprocessed Daten geladen, die Modelle trainiert und die Ergebnisse entsprechend gespeichert und ausgegeben.</p>
+# Diskussion
 
 
