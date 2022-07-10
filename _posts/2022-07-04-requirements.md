@@ -25,7 +25,7 @@ title: 01 Requirements
 # UML Diagramm der zentralen Requirements
 ![]({{ site.baseurl }}/diagrams/UML_requirements.svg "UML Requirements")
 
-# Reaktion auf Änderungen von Requirements
+# Änderungen von Requirements
 <p style="text-align: justify;">Da die gesamte Implementierung nach dem Agile-Prinzip  über das Kanban-Board von Gitlab erfolgt (siehe Beispiel in der nachfolgenden Abbildung), können entsprechende Änderungen von Requirements über dieses Board eingefangen und koordiniert werden. </p>
 
 ![]({{ site.baseurl }}/diagrams/kanban_board.png "Kanban Board")
