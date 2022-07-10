@@ -28,7 +28,7 @@ title: 01 Requirements
 # Änderungen von Requirements
 <p style="text-align: justify;">Da die gesamte Implementierung nach dem Agile-Prinzip  über das Kanban-Board von Gitlab erfolgt (siehe Beispiel in der nachfolgenden Abbildung), können entsprechende Änderungen von Requirements über dieses Board eingefangen und koordiniert werden. </p>
 
-![]({{ site.baseurl }}/diagrams/kanban_board.png "Kanban Board")
+![]({{ site.baseurl }}/images/kanban_board.png "Kanban Board")
 
 <p style="text-align: justify;">Dabei kann das neue Requirement oder geänderte Requirement als neues Issue im Produkt-Backlog aufgenommen werden. Um dieses Issue von den anderen zu unterscheiden, soll in der Beschreibung des Issues eine Change-Request ID hinzugefügt werden (z.B. CR-001). Im nächsten Sprint soll entsprechend der Impact bewertet werden. Ist der Impact zu groß, muss entsprechend mit dem Kunden Rücksprache gehalten werden. Wenn der Implementierungsplan aus dem geänderten Requirement aufegesetzt ist, dann werden daraus ableitend entsprechend neues Issues für das Projektteam angelegt. Jedes der Issues welche aus dem CR-001 erstellt wurden, werden entsprechend mit einem Flag markiert, um nach der fertigen Umsetzung erkennen zu können, wann der CR-001 abgeschlossen wurde und die Dokumentation der Requirements wird abschließend angepasst. </p>
 
