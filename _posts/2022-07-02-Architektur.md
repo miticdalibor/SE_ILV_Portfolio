@@ -17,17 +17,16 @@ title: 02 Architektur
 
 <p style="text-align: justify;">Für das ablegen der Docker-Registry auf Dockerhub ist entsprechend die Schnittstelle vom Intranet nach außen erforderlich. Außerdem müssen entsprechende Downloads von Packages gewährleistet werden. Hierbei sollen die Packages nur mit Hashes installiert werden, um keine "gefälschten" Open-Source Packages zu installieren.</p>
 
-
-# Datawarehouse 
-<p style="text-align: justify;">Als Datawarehouse für Frunch Infinity ist ein Enterprise Data Warehouse erforderlich, damit die Daten zentralisiert gelagert werden. Für die Architektur der untersten Ebene im Datawarehouse können keine besonderen Anforderungen außer der Konsistenz der Daten abgeleitet werden. Die Zeit für das Schreiben und Lesen der Daten im Datawarehouse ist im Vergleich zur Trainingszeit der Modelle marginal und somit besteht keine Echtzeitanforderung. Es ist aber wichtig, dass die Daten konsistent sind, damit die Integrität der Daten über den gesamten Lebenszyklus gegeben ist. Deshalb wird als Architektur ein relationales DBS (MySQL) gewählt. Der Zugriff auf das Datawarehouse kann über SQLAlchemy (ORM) erfolgen und für die Verwaltung der importierten Datensätze wird DVC (Data Version Control) verwendet (bevor sie in das Datawarehouse abgelegt werden). </p>
-
-# Systemarchitektur Modell
+## Systemarchitektur Diagramm
 
 <p style="text-align: justify;">Die nachfolgende Grafik zeigt eine Übersicht der Architektur. Die gelb markierten Blöcke befinden sich im Frontend und die blau markierten Blöcke im Backend.</p>
 
 ![]({{ site.baseurl }}/diagrams/Systemarchitektur.svg "Systemarchitektur und Tools")
 
 <p style="text-align: justify;">Der User soll dabei die Daten aus dem lokalen Speicher in einem .csv Format über die Web-App (Client) hochladen. Über die Web-App soll der User dann die Feature-Bezeichnungen definieren und entsprechend als numerisch oder kategorisch markieren, sowie die Zielvariable auswählen. Sobald die Funktion gestartet wird, werden die Daten entsprechend über eine Pipeline preprocessed und im Datawarehouse abgelegt (Server). Von dort aus werden die preprocessed Daten geladen, die Modelle trainiert und die Ergebnisse entsprechend gespeichert und ausgegeben.</p>
+
+# Datawarehouse 
+<p style="text-align: justify;">Als Datawarehouse für Frunch Infinity ist ein Enterprise Data Warehouse erforderlich, damit die Daten zentralisiert gelagert werden. Für die Architektur der untersten Ebene im Datawarehouse können keine besonderen Anforderungen außer der Konsistenz der Daten abgeleitet werden. Die Zeit für das Schreiben und Lesen der Daten im Datawarehouse ist im Vergleich zur Trainingszeit der Modelle marginal und somit besteht keine Echtzeitanforderung. Es ist aber wichtig, dass die Daten konsistent sind, damit die Integrität der Daten über den gesamten Lebenszyklus gegeben ist. Deshalb wird als Architektur ein relationales DBS (MySQL) gewählt. Der Zugriff auf das Datawarehouse kann über SQLAlchemy (ORM) erfolgen und für die Verwaltung der importierten Datensätze wird DVC (Data Version Control) verwendet (bevor sie in das Datawarehouse abgelegt werden). </p>
 
 # CI/CD Pipeline
 
@@ -50,7 +49,7 @@ Die CI/CD Pipeline für Frunch Infinity 2.0 enthält folgende Stages:
 <p style="text-align: justify;">8) App wird deployed.</p>
 
 # Data-Science Architektur
-<p style="text-align: justify;">Nachfolgendes Diagramm zeigt eine eigens entwickelte Data-Science Architektur für Frunch-Infinity 2.0 auf Basis des CRISP-DM Ansatzes. </p>
+<p style="text-align: justify;">Nachfolgendes Diagramm zeigt eine eigens entwickelte Data-Science Architektur für Frunch-Infinity 2.0 auf Basis des CRISP-DM Ansatzes, welches in der Produktion angewendet wird. Für den Development Prozess kann der klassische CRISP-DM Ansatz angewendet werden und deshalb wird dieser hier nicht näher betrachtet. </p>
 
 ![]({{ site.baseurl }}/diagrams/DS_Architektur.svg "Data Science Architektur")
 
