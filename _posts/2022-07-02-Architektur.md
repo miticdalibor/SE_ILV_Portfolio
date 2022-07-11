@@ -51,7 +51,7 @@ Die CI/CD Pipeline für Frunch Infinity 2.0 enthält folgende Stages:
 # Data-Science Architektur
 <p style="text-align: justify;">Nachfolgendes Diagramm zeigt eine eigens entwickelte Data-Science Architektur für Frunch-Infinity 2.0 auf Basis des CRISP-DM Ansatzes. </p>
 
-![]({{ site.baseurl }}/diagrams/DS_Architektur.png "Data Science Architektur")
+![]({{ site.baseurl }}/diagrams/DS_Architektur.svg "Data Science Architektur")
 
 <p style="text-align: justify;">Da Frunch-Infinity eine Auto-ML Lösung darstellt, liegt der Business Understanding (Domänenwissen) auf der User-Seite. Der User soll durch die Anwendung von Frunch-Infinity 2.0 einen Einblick in die Qualität der verwendeten Daten kriegen und somit das Verständnis der Daten verbessern. Damit das System flexibel ist muss die Data-Preparation und das Modelling ein Netzwerk darstellen, wodurch alle möglichen Szenarien durchberechnet werden. Der Evaluation-Teil vergleicht die Ergebnisse der Modelle und schaltet mit jeder Iteration durch alle Pipelines. Wenn alle Iterationen durchgelaufen sind, vergleicht der Evaluation-Teil die besten Ergebnisse der Iterationen mit einander und gibt das Modell mit dem besten Ergebnis aus. Am meisten Entwicklungsaufwand für Frunch-Infinity 2.0 wird der Teil Data Preprocessing sein, da die Pipeline unterschiedlichste Datensätze und Edge-Cases verarbeiten muss. Die Architektur soll die Möglichkeit bieten, dem User die Data Preparation sowie das beste Modell ausgeben, wodurch das Data Understanding durch die Anwendung von Frunch Infinity 2.0 erreicht wird.</p>
 
