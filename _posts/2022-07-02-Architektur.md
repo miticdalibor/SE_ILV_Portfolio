@@ -39,14 +39,15 @@ Die CI/CD Pipeline für Frunch Infinity 2.0 enthält folgende Stages:
 
 <p style="text-align: justify;">Beispiel: Entwicklung des Features "import Data", mit dem der User eigene .csv-Files über die Web-App hochladen kann. </p>
 
-1) <p style="text-align: justify;">pytest wird um eine Klasse "test_file_format" erweitert. Dabei wird ein assert error eingefügt, der die File-Extension "*.csv" überprüft und entsprechend einen Fehler "Please import only files in .csv file format" ausgibt.</p>
-2) <p style="text-align: justify;">Implementierung in Web-App durchführen und importierte Daten als .json an Backend übergeben.</p>
-3) <p style="text-align: justify;">Commit durchführen</p>
-4) <p style="text-align: justify;">Pytest in CI wird durchgeführt. Wenn Test bestanden hat, dann weiter mit Schritt 5. </p>
-5) <p style="text-align: justify;">Doc-String von Klassen "test_file_format" und "import_data" wird mit pdoc erstellt und als html abgelegt.</p>
-6) <p style="text-align: justify;">Feature releasen in Gitlab. </p>
-7) <p style="text-align: justify;">Build wird durchgeführt (siehe oben)</p>
-8) <p style="text-align: justify;">App wird deployed.</p>
+<p style="text-align: justify;">1) pytest wird um eine Klasse "test_file_format" erweitert. Dabei wird ein assert error eingefügt, der die File-Extension "*.csv" überprüft und entsprechend einen Fehler "Please import only files in .csv file format" ausgibt.</p>
+
+<p style="text-align: justify;">2) Implementierung in Web-App durchführen und importierte Daten als .json an Backend übergeben.</p>
+<p style="text-align: justify;">3) Commit durchführen</p>
+<p style="text-align: justify;">4) Pytest in CI wird durchgeführt. Wenn Test bestanden hat, dann weiter mit Schritt 5. </p>
+<p style="text-align: justify;">5) Doc-String von Klassen "test_file_format" und "import_data" wird mit pdoc erstellt und als html abgelegt.</p>
+<p style="text-align: justify;">6) Feature releasen in Gitlab. </p>
+<p style="text-align: justify;">7) Build wird durchgeführt (siehe oben)</p>
+<p style="text-align: justify;">8) App wird deployed.</p>
 
 # Data-Science Architektur
 <p style="text-align: justify;">Nachfolgendes Diagramm zeigt eine eigens entwickelte Data-Science Architektur für Frunch-Infinity 2.0 auf Basis des CRISP-DM Ansatzes. </p>
