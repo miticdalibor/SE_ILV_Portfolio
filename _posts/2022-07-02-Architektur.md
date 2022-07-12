@@ -33,8 +33,8 @@ title: 02 Architektur
 Die CI/CD Pipeline für Frunch Infinity 2.0 enthält folgende Stages:
 - <p style="text-align: justify;">Test: Ausführen der unit-tests (run pytest)</p>
 - <p style="text-align: justify;">Pages: Ausführen von pdoc, um Dokumentation der Klassen zu erstellen.</p>
-- <p style="text-align: justify;">Build: Erstellen eines Docker-Images und speicher in einer Registry auf Gitlab. Die Build-Stage soll nur beim Tag (neuer Software Release) ausgeführt werden.</p>
-- <p style="text-align: justify;">Deploy: Die Applikation soll deployed werden, wenn ein Release erfolgreich gebuilded wurde. </p>
+- <p style="text-align: justify;">Build: Erstellen eines Docker-Images und speichert in einer Registry auf Gitlab. Die Build-Stage soll nur beim Tag (neuer Software Release) ausgeführt werden.</p>
+- <p style="text-align: justify;">Deploy: Die Applikation soll aus dem Docker-Image auf einem lokalen Server deployed werden, wenn ein Release erfolgreich gebuilded wurde. </p>
 
 <p style="text-align: justify;">Beispiel: Entwicklung des Features "import Data", mit dem der User eigene .csv-Files über die Web-App hochladen kann. </p>
 
