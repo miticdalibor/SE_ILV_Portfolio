@@ -6,13 +6,13 @@
 
 https://miticdalibor.github.io/SE_ILV_Portfolio/
 
-# My Blog
+# Frunch Infinity 2.0
 
 
 _powered by [fastpages](https://github.com/fastai/fastpages)_
 
 
-## What To Do Next?
+## How to create posts
 
 Great!  You have setup your repo.  Now its time to start writing content.  Some helpful links:
 
